@@ -1,0 +1,23 @@
+﻿<Window x:Class="Lab11.EditInvoice"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lab11"
+        mc:Ignorable="d"
+        Title="EditInvoice" Height="241.022" Width="375.077">
+    <Grid>
+        <Label Content="Id" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <Label Content="Id Faktury" HorizontalAlignment="Left" Margin="10,41,0,0" VerticalAlignment="Top"/>
+        <Label Content="Nazwa" HorizontalAlignment="Left" Margin="10,72,0,0" VerticalAlignment="Top"/>
+        <Label Content="Ilość" HorizontalAlignment="Left" Margin="10,103,0,0" VerticalAlignment="Top"/>
+        <Label Content="Cena" HorizontalAlignment="Left" Margin="10,134,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="_id" HorizontalAlignment="Left" Height="23" Margin="102,14,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="255" RenderTransformOrigin="0.5,0.5" IsEnabled="False"/>
+        <TextBox x:Name="_invoiceId" HorizontalAlignment="Left" Height="23" Margin="102,45,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="255" RenderTransformOrigin="0.5,0.5" IsEnabled="False"/>
+        <TextBox x:Name="_name" HorizontalAlignment="Left" Height="23" Margin="102,72,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="255" RenderTransformOrigin="0.5,0.5"/>
+        <TextBox x:Name="_ammount" HorizontalAlignment="Left" Height="23" Margin="102,103,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="255" RenderTransformOrigin="0.5,0.5"/>
+        <TextBox x:Name="_price" HorizontalAlignment="Left" Height="23" Margin="102,134,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="255" RenderTransformOrigin="0.5,0.5"/>
+        <Button x:Name="Confirm" Content="Ok" HorizontalAlignment="Left" Margin="282,175,0,0" VerticalAlignment="Top" Width="75" Click="Confirm_Click"/>
+
+    </Grid>
+</Window>
